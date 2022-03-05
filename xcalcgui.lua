@@ -130,8 +130,8 @@ end
 -- Draw the main window
 function xcalc.windowframe()
 	-- Main Window Frame (container) and title bar
-	local frame = CreateFrame("Frame","xcalc_window",UIParent)
-	frame:SetFrameStrata("HIGH")
+	local frame = CreateFrame("Frame","xcalc_window",UIParent, "BackdropTemplate")
+	frame:SetFrameStrata("FULLSCREEN_DIALOG")
 	frame:EnableMouse(true)
 	frame:EnableKeyboard(true)
 	frame:SetMovable(true)
@@ -246,7 +246,7 @@ end
 -- Draw the Option window
 function xcalc.optionframe()
 	-- Options window Frame
-	local frame = CreateFrame("Frame","xcalc_optionwindow",UIParent)
+	local frame = CreateFrame("Frame","xcalc_optionwindow",UIParent,"BackdropTemplate")
 	frame:SetFrameStrata("HIGH")
 	frame:EnableMouse(true)
 	frame:SetClampedToScreen(true)

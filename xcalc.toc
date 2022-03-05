@@ -1,12 +1,16 @@
-## Interface: 60000
+## Interface: 90200
 ## Title: xcalc
 ## Author: Moird, Dridzt
-## Version: @project-version@
+## Version: v2.75
 ## Notes: Basic Calculator
 ## eMail: dan@moird.com
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 ## SavedVariablesPerCharacter: Xcalc_Settings
+## X-Curse-Packaged-Version: v2.74
+## X-Curse-Project-Name: xcalc
+## X-Curse-Project-ID: xcalc
+## X-Curse-Repository-ID: wow/xcalc/mainline
 
 xcalc.lua
 xcalcgui.lua
